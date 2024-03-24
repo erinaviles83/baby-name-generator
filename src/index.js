@@ -7,7 +7,6 @@ function displayName(response) {
       });
 }
 
-
 function generateName(event) {
     event.preventDefault(); 
     
@@ -18,11 +17,8 @@ function generateName(event) {
     let context = "You know a baby name expert and know the best names for babies. Please provide the user with the top 3 names for their new baby. List only the names with commas in between and without numbering them please."; 
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`
 
-    console.log(`Prompt`); 
-   
 
     axios.get(apiUrl).then(displayName); 
-
 }
 
 let nameFormElement = document.querySelector("#name-generator-form"); 

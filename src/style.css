@@ -61,7 +61,7 @@ form {
     line-height: 25px; 
     border-left: 3px solid darkgoldenrod;
     border-right: 3px solid darkgoldenrod;
-    box-shadow: 0px 20px 60px rgba(65,50,100,0.08);
+    box-shadow: 20px 40px 80px rgba(57, 53, 66, 0.08);
     border-radius: 40px;
     text-align: center;
 }
