@@ -1,5 +1,74 @@
 body {
-    background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
-    text-align: center;
+    background: lightgoldenrodyellow; 
+    font-family: "Roboto", sans-serif;
+}
 
+a {
+    color: darkgoldenrod;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 2;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+header {
+    margin-bottom: 30px;
+}
+
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 20px 60px rgba(65,50,100,0.08);
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 750px;
+}
+
+.instructions {
+    padding: 15px;
+    border: 1px solid darkgoldenrod;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.submit-button {
+    margin-left: 10px;
+    background-color: darkgoldenrod;
+    border-radius: 40px;
+    padding: 15px 25px;
+    border: none;
+    width: 150px;
+
+}
+
+.poem {
+    font-size: 20px;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    line-height: 25px; 
+    border-left: 3px solid darkgoldenrod;
+    border-right: 3px solid darkgoldenrod;
+    box-shadow: 0px 20px 60px rgba(65,50,100,0.08);
+    border-radius: 40px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    
 }
